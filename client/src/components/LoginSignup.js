@@ -26,7 +26,7 @@ const LoginSignup = () => {
   };
 
   const handleLogin = () => {
-    axios.post('http://localhost:3001/login', loginData) // Send loginData as the request body
+    axios.post('http://localhost:3001/login', loginData) 
       .then(result => {
         console.log(result);
         if (result.data === "success") {
