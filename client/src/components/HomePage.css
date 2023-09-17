@@ -10,8 +10,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  max-width: 600px; /* Set a fixed width for the container */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .picture-grid img {
