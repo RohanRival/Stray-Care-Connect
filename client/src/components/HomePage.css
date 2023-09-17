@@ -20,8 +20,7 @@
   border: 8px solid #000000;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px; /* Add margin to separate the images */
-}
+  margin: 10px; 
 .picture-grid img:hover {
   border-color: #007bff;
 } 
@@ -37,7 +36,7 @@
   }
 }
 
-/* Apply the animation to the heading element */
+
 .heading.moveLeftToRight {
   animation: moveLeftToRight 15s ease-in-out infinite;
 }
