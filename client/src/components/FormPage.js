@@ -5,10 +5,9 @@ import Navbar from './Navbar';
 import axios from 'axios';
 
 const FormPage = () => {
-  // Use useParams to get the ID from the URL
+  
   const { id } = useParams();
 
-  // State for form fields
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,7 +23,7 @@ const FormPage = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the form from submitting normally
+    e.preventDefault(); 
     const message = 'Submitted Successfully'
     alert(message);
     axios.post('http://localhost:3001/form', formData)
