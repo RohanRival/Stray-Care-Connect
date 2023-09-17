@@ -71,8 +71,8 @@ const styles = {
     color: 'white',
     textDecoration: 'underline',
     cursor: 'pointer',
-    width: '70px', // Adjust the width as needed
-    height: '40px', // Set the same value for width and height to create a square button
+    width: '70px', 
+    height: '40px', 
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
