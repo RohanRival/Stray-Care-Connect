@@ -11,7 +11,7 @@ const HomePage = () => {
     { id: 4, src: 'images/picture4.jpg', formLink: '/form/4' },
     { id: 5, src: 'images/picture5.jpg', formLink: '/form/5' },
     { id: 6, src: 'images/picture6.jpg', formLink: '/form/6' },
-    // Add more pictures with their respective form links
+    
   ];
 
   return (
