@@ -1,0 +1,43 @@
+.home {
+  text-align: center;
+  padding: 20px;
+  background-image: url('home.jpg');
+  height: 130vh;
+}
+
+.picture-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 600px; /* Set a fixed width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.picture-grid img {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px; /* Add margin to separate the images */
+}
+.picture-grid img:hover {
+  border-color: #007bff;
+} 
+/* Define the animation */
+@keyframes moveLeftToRight {
+  10% {
+    transform: translateX(-100%);
+    opacity: 10;
+  }
+  70% {
+    transform: translateX(100%);
+    opacity: 10;
+  }
+}
+
+/* Apply the animation to the heading element */
+.heading.moveLeftToRight {
+  animation: moveLeftToRight 15s ease-in-out infinite;
+}
